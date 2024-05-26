@@ -1,0 +1,15 @@
+.container-experience {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.button-end {
+    display: flex;
+    justify-content: end;
+    margin-right: 2%;
+
+    ::ng-deep .mat-mdc-unelevated-button {
+        background-color:  rgba(39, 170, 218, 0.906) !important;
+
+    }
+}

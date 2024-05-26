@@ -1,0 +1,13 @@
+<div>
+    <app-titel-component [titel]="'experience'"></app-titel-component>
+    <div class="button-end">
+        <button mat-flat-button (click)="justDeveloper()"> {{ textButton }}</button>
+    </div>
+    <div class="container-fluid">
+        <div class="row container-experience d-flex justify-content-center">
+            <div class="col-9" *ngFor="let job of InformationJobs">
+                <app-card-experience [information]="job"></app-card-experience>
+            </div>
+        </div>
+    </div>
+</div>

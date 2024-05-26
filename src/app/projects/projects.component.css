@@ -1,0 +1,24 @@
+
+  
+    .card {
+        margin-bottom: 2%;
+        --bs-card-bg: transparent;
+        --bs-card-border-color: transparent;
+        
+        mat-card-title{
+          color: rgba(39, 170, 218, 0.906);
+        }
+        mat-card-content{
+          margin-top: 5%;
+        }
+
+        .description {
+          margin-top: 5%;
+        }
+        
+        ::ng-deep .mat-mdc-card {
+          
+          padding: 2%;
+          background-color: white;
+        }
+      }

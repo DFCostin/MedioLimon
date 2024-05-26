@@ -1,0 +1,208 @@
+{
+    "english":"English",
+    "spanish":"Spanish",
+    "about": "About me",
+    "experience": "Experience ",
+    "projects": "Projects ",
+    "skills": "Skills ",
+    "education": "Training",
+    "contact": "Contact ",
+    "resume": "Resume ",
+    "titel-information": "THIS IS ME ",
+    "out-developer": "Jobs on developer",
+    "on-developer": "Jobs",
+    "about-p1":"My name is Dan Florea Costin",
+    "about-p2-1":"Currently I am",
+    "about-p2-2":"years old and I live in Vinaroz, a town located in the north of Castellón (Valencian Community).",
+    "about-p3":"I am a vivid person with the desire to explore and enjoy the world.",
+    "about-p4":"Always looking for new challenges and exciting experiences. My love for exploration has led me to develop a great capacity for adaptation, resilience and a proactive attitude toward personnel. My enthusiasm for things has not only given me endless enriching experiences, but has also forged in me a mentality of constant learning and improvement.",
+    "about-p5":"All the experience acquired so far makes me a person with the following skills:",
+    "about-p6-1":"Adaptability",
+    "about-p6-2":"Used to face and adapt easily to changing environments and situations.",
+    "about-p7-1":"Resilience",
+    "about-p7-2":"Firmness and tenacity facing challenges, with a positive attitude and oriented towards solving problems.",
+    "about-p8-1":"Teamwork",
+    "about-p8-2":"Experience collaborating with diverse teams, fostering cooperation and achieving common objectives.",
+    "about-p9-1":"Time management",
+    "about-p9-2":"Ability to prioritize tasks and manage multiple projects simultaneously, ensuring efficiency and effectiveness.",
+    "about-p10-1":"Creativity and Proactivity",
+    "about-p10-2":"Innovative approach to find solutions and improve processes, always looking for new opportunities for improvement.",
+    "experienceOfJob": [
+        {
+            "type": "no-developer",
+            "name": "Deltakitesup",
+            "descriptionPosition": "KiteSurf Monitor",
+            "location": "Delta del Ebro",
+            "date": "2023 / (Actual)",
+            "description": "KiteSurf instructor in season.",
+            "listOfTask": [
+                {
+                    "list1": "Evaluate conditions and the student.",
+                    "list2": "In charge of the gear used.",
+                    "list3": "Take the classes in the safest and funniest way for the client.",
+                    "list4": "Adapt each class to the client's capabilities.."
+                }
+            ]
+        },
+        {
+            "type": "no-developer",
+            "name": "Festives Vinaros and others",
+            "descriptionPosition": "Manager",
+            "date": "2019 / (Actual)",
+             "location": "Vinaroz",
+            "description": "In charge of a team of 15 people and my duties are:",
+            "listOfTask": [
+                {
+                    "list1": "Supervision.",
+                    "list2": "Assembly and disassembly of the bars.",
+                    "list3": "Replenisher.",
+                    "list4": "Barman."
+                }
+            ]
+        },
+        {
+            "type": "no-developer",
+            "name": "Guzman &  Gomez",
+            "descriptionPosition": "Crewman",
+            "date": "2023/2024 (6 meses)",
+             "location": "Gold Coast",
+            "description": "I worked there during my stay in Australia.",
+            "listOfTask": [
+                {
+                    "list1": "Kitchen manager.",
+                    "list2": "Chef.",
+                    "list3": "Delivery.",
+                    "list4": "Cleaning.",
+                    "list5": "On the line, assembling orders.",
+                    "list6": "Customer sales."
+                }
+            ]
+        },
+        {
+            "type": "developer",
+            "name": "Stratio",
+            "descriptionPosition": "Frond-end Developer",
+            "date": "2021/2023 (2 años)",
+             "location": "Madrid",
+            "description": "My main function was Frond-end with ANGULAR.",
+            "listOfTask": [
+                {
+                    "list1": "Creation of new developments of components and modules.",
+                    "list2": "Creation of new features, designs, unit tests, etc.",
+                    "list3": "Modification and updating of components, modules, functionalities, styles, unit tests, etc. According to the need and priority identified.",
+                    "list4": "Performance optimization, security, documentation, removals, Bug fixes."
+                }
+            ]
+        },
+        {
+            "type": "no-developer",
+            "name": "Lacats",
+            "descriptionPosition": "Pawn",
+            "date": "2020 (4 meses)",
+             "location": "Ulldecona",
+            "description": "Company specialized in powder painting of metal parts.",
+            "listOfTask": [
+                {
+                    "list1": "Line preparation.",
+                    "list2": "Cleaning of parts.",
+                    "list3": "Assembly of the piece for painting.",
+                    "list4": "Packaging for later distribution."
+                }
+            ]
+        },
+        {
+            "type": "no-developer",
+            "name": "Talleres Blanchadell",
+            "descriptionPosition": "Pawn",
+            "date": "2021 (4 meses)",
+             "location": "Vinaroz",
+            "description": "Construction of a 16m aluminum catamaran from scratch and making repairs to damaged boats.",
+            "listOfTask": [
+                {
+                    "list1": "Boat repair.",
+                    "list2": "Use of different machines for shipbuilding.",
+                    "list3": "Paint pieces with special paint."
+                }
+            ]
+        },
+        {
+            "type": "no-developer",
+            "name": "Pub Refugio",
+            "descriptionPosition": "Barman",
+            "date": "2019/2020 ",
+             "location": "Peñiscola",
+            "description": "During the summer months.",
+            "listOfTask": [
+                {
+                    "list1": "Prepare the Pub for opening.",
+                    "list2": "To serve the clients.",
+                    "list3": "Prepare cocktails to the client's taste.",
+                    "list4": "Pub closing tasks."
+                }
+            ]
+        }
+        ,
+        {
+            "type": "developer",
+            "name": "OTP",
+            "descriptionPosition": "Back-end Developer",
+            "date": "2020 (7 meses)",
+             "location": "Valencia",
+            "description": "Creation of the company's internal application with LARAVEL.",
+            "listOfTask": [
+                {
+                    "list1": "Create new routes and components.",
+                    "list2": "Interaction with the PostGres database.",
+                    "list3": "Design and create interaction for the user.",
+                    "list4": "Version management."
+                }
+            ]
+        }
+        ,
+        {
+            "type": "developer",
+            "name": "Novatel",
+            "descriptionPosition": "Pawn of Network",
+            "date": "2018 (4 meses) ",
+             "location": "Benicarló",
+            "description": "I completed my mid-level internships in this company dedicated to network service.",
+            "listOfTask": [
+                {
+                    "list1": "Installation of network and telecommunications equipment.",
+                    "list2": "Installations of anti-fire equipment.",
+                    "list3": "Make network configurations for connecting devices.",
+                    "list4": "Maintenance and repair of network equipment."
+                }
+            ]
+        }
+        ,
+        {
+            "type": "no-developer",
+            "name": "Hostería del Mar",
+            "descriptionPosition": "Buttons",
+            "date": "2017/2019 (3 años) ",
+             "location": "Peñiscola",
+            "description": "During the summer months I worked at Hostería del Mar, a 4-star superior hotel.",
+            "listOfTask": [
+                {
+                    "list1": "Buttons.",
+                    "list2": "Customer Support.",
+                    "list3": "Reception assistant."
+                }
+            ]
+        }
+    ],
+    "projects-p1-1":"Creation of web page",
+    "projects-p1-2":"important leading company in the construction of boats and floating structures.",
+    "projects-p3":"The website was created with a Model View Controller in PHP.",
+    "projects-p4":"Technologies used",
+    "skills-p1":"TECHNOLOGIES",
+    "skills-p2":"Databases",
+    "skills-p3":"Versioned",
+    "skills-p4":"Tools for development",
+    "skills-p5":"Superficial knowledge",
+    "skills-p6":"Styles",
+    "education-p1":"Microcomputer systems and networks",
+    "education-p2":"Web application development"
+
+}

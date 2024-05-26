@@ -1,0 +1,22 @@
+.container-information {
+  padding: 8%;
+  padding-top: 2%;
+  padding-bottom: 0;
+}
+
+h2 {
+  color: #424242;
+  text-decoration: underline;
+}
+
+.card {
+  text-align: center;
+  --bs-card-bg: transparent;
+  --bs-card-border-color: transparent;
+
+  ::ng-deep .mat-mdc-card {
+    background-color: white;
+  }
+
+
+}
