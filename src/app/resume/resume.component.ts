@@ -26,13 +26,13 @@ export class ResumeComponent implements OnInit {
     const idioma = this.translateService.currentLang;
     switch (idioma) {
       case 'es':
-        this.rutaPDF = this.sanitizer.bypassSecurityTrustResourceUrl('../assets/resume/cv_es.pdf');
+        this.rutaPDF = this.sanitizer.bypassSecurityTrustResourceUrl('assets/resume/cv_es.pdf');
         break;
       case 'en':
-        this.rutaPDF = this.sanitizer.bypassSecurityTrustResourceUrl('../assets/resume/cv_en.pdf');
+        this.rutaPDF = this.sanitizer.bypassSecurityTrustResourceUrl('assets/resume/cv_en.pdf');
         break;
       default:
-        this.rutaPDF = this.sanitizer.bypassSecurityTrustResourceUrl('../assets/resume/cv_en.pdf');
+        this.rutaPDF = this.sanitizer.bypassSecurityTrustResourceUrl('assets/resume/cv_en.pdf');
     }
   }
 }
