@@ -21,11 +21,11 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:application",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/protafolio",
+            "outputPath": "docs",
             "index": "src/index.html",
-            "browser": "src/main.ts",
+            "main": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
@@ -57,12 +57,19 @@
                   "maximumError": "4kb"
                 }
               ],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
               "outputHashing": "all"
             },
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "vendorChunk": true
             }
           },
           "defaultConfiguration": "production"
@@ -71,10 +78,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Protafolio:build:production"
+              "browserTarget": "Protafolio:build:production"
             },
             "development": {
-              "buildTarget": "Protafolio:build:development"
+              "browserTarget": "Protafolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,17 +89,19 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Protafolio:build"
+            "browserTarget": "Protafolio:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
+            "main": "src/test.ts",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
               "src/assets"
