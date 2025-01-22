@@ -3,9 +3,10 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-resume',
-  templateUrl: './resume.component.html',
-  styleUrl: './resume.component.css'
+    selector: 'app-resume',
+    templateUrl: './resume.component.html',
+    styleUrl: './resume.component.css',
+    standalone: false
 })
 export class ResumeComponent implements OnInit {
   public rutaPDF: any;

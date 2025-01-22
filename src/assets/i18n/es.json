@@ -29,6 +29,21 @@
     "about-p10-2":"Enfoque innovador para encontrar soluciones y mejorar procesos, siempre buscando nuevas oportunidades de mejora.",
     "experienceOfJob": [
         {
+            "type": "developer",
+            "name": "Gil Comes",
+            "descriptionPosition": "Back-end Developer",
+            "date": "2024 / (Actual)",
+             "location": "Vinarós",
+            "description": "Mi funcion es Back-end con SAP.",
+            "listOfTask": [
+                {
+                    "list1": "Crear nuevos programas.",
+                    "list2": "Corregir incidencias en programas.",
+                    "list3": "Reparar dispositivos electricos."
+                }
+            ]
+        },
+        {
             "type": "no-developer",
             "name": "Deltakitesup",
             "descriptionPosition": "Monitor KiteSurf",
@@ -57,6 +72,38 @@
                     "list2": "Montaje y desmontaje de las barras.",
                     "list3": "Reponedor.",
                     "list4": "Barman."
+                }
+            ]
+        },
+        {
+            "type": "no-developer",
+            "name": "Babilon",
+            "descriptionPosition": "Camarero",
+            "date": "2024 (Unas semanas)",
+             "location": "Benicarló",
+            "description": "Durante los meses de verano.",
+            "listOfTask": [
+                {
+                    "list1": "Atención al cliente.",
+                    "list2": "Servir cerveza y cocteles.",
+                    "list3": "Mantener todas las areas limpias.",
+                    "list4": "Gestion del cobro y funcionamiento de los dispositivos electricos del local."
+                }
+            ]
+        },
+        {
+            "type": "no-developer",
+            "name": "Hotel Agora",
+            "descriptionPosition": "Limpieza de habitaciones",
+            "location": "Peñiscola",
+            "date": "2024 (4 Meses)",
+            "description": "Durante los meses de verano.",
+            "listOfTask": [
+                {
+                    "list1": "Realizar una limpieza profunda y desinfección de las habitaciones de los huéspedes, asegurando el cumplimiento de los estándares de higiene.",
+                    "list2": "Inspeccionar y reemplazar la ropa de cama, toallas y amenities para mantener un confort premium para los huéspedes.",
+                    "list3": "Pulir los muebles, limpiar las ventanas y desinfectar las áreas de alto contacto para mejorar la presentación y seguridad.",
+                    "list4": "Reabastecer los suministros de limpieza y monitorear las condiciones de las habitaciones para asegurar la calidad consistente del servicio."
                 }
             ]
         },

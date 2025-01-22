@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-information',
-  templateUrl: './information.component.html',
-  styleUrls: ['./information.component.css']
+    selector: 'app-information',
+    templateUrl: './information.component.html',
+    styleUrls: ['./information.component.css'],
+    standalone: false
 })
 export class InformationComponent {
   constructor(private translate: TranslateService) { }

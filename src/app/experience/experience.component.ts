@@ -3,9 +3,10 @@ import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-experience',
-  templateUrl: './experience.component.html',
-  styleUrl: './experience.component.css'
+    selector: 'app-experience',
+    templateUrl: './experience.component.html',
+    styleUrl: './experience.component.css',
+    standalone: false
 })
 export class ExperienceComponent implements OnInit, OnDestroy {
 

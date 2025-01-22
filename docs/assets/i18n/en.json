@@ -29,18 +29,66 @@
     "about-p10-2":"Innovative approach to find solutions and improve processes, always looking for new opportunities for improvement.",
     "experienceOfJob": [
         {
+            "type": "developer",
+            "name": "Gil Comes",
+            "descriptionPosition": "Back-end Developer",
+            "date": "2024 / Current",
+             "location": "Vinarós",
+            "description": "My main function is Back-end with SAP.",
+            "listOfTask": [
+                {
+                    "list1": "Creating new programs.",
+                    "list2": "To correct and edit issues in a program.",
+                    "list3": "To repair errors in electronic devices.",
+                    "list4": ""
+                }
+            ]
+        },
+        {
+            "type": "no-developer",
+            "name": "Babilon",
+            "descriptionPosition": "Barman",
+            "date": "2024 (few weeks)",
+             "location": "Benicarló",
+            "description": "During the summer months.",
+            "listOfTask": [
+                {
+                    "list1": "Attending to customers.",
+                    "list2": "Serving drinks and food.",
+                    "list3": "Maintaining cleanliness.",
+                    "list4": "Managing billing and payment."
+                }
+            ]
+        },
+        {
+            "type": "no-developer",
+            "name": "Hotel Agora",
+            "descriptionPosition": "Housekeeping",
+            "location": "Peñiscola",
+            "date": "2024 (4 Months)",
+            "description": "Cleaning of hotel rooms.",
+            "listOfTask": [
+                {
+                    "list1": "Perform deep cleaning and sanitization of guest rooms, ensuring compliance with hygiene standards.",
+                    "list2": "Inspect and replace bed linens, towels, and amenities to maintain premium guest comfort.",
+                    "list3": "Polish furniture, clean windows, and sanitize high-touch areas to enhance presentation and safety.",
+                    "list4": "Restock cleaning supplies and monitor room conditions to ensure consistent service quality."
+                }
+            ]
+        },
+        {
             "type": "no-developer",
             "name": "Deltakitesup",
             "descriptionPosition": "KiteSurf Monitor",
             "location": "Delta del Ebro",
-            "date": "2023 / (Actual)",
+            "date": "2023 / (Current)",
             "description": "KiteSurf instructor in season.",
             "listOfTask": [
                 {
                     "list1": "Evaluate conditions and the student.",
                     "list2": "In charge of the gear used.",
                     "list3": "Take the classes in the safest and funniest way for the client.",
-                    "list4": "Adapt each class to the client's capabilities.."
+                    "list4": "Adapt each class to the client's capabilities."
                 }
             ]
         },
@@ -48,7 +96,7 @@
             "type": "no-developer",
             "name": "Festives Vinaros and others",
             "descriptionPosition": "Manager",
-            "date": "2019 / (Actual)",
+            "date": "2019 / (Current)",
              "location": "Vinaroz",
             "description": "In charge of a team of 15 people and my duties are:",
             "listOfTask": [
@@ -64,7 +112,7 @@
             "type": "no-developer",
             "name": "Guzman &  Gomez",
             "descriptionPosition": "Crewman",
-            "date": "2023/2024 (6 meses)",
+            "date": "2023/2024 (6 Months)",
              "location": "Gold Coast",
             "description": "I worked there during my stay in Australia.",
             "listOfTask": [
@@ -82,7 +130,7 @@
             "type": "developer",
             "name": "Stratio",
             "descriptionPosition": "Frond-end Developer",
-            "date": "2021/2023 (2 años)",
+            "date": "2021/2023 (2 Years)",
              "location": "Madrid",
             "description": "My main function was Frond-end with ANGULAR.",
             "listOfTask": [
@@ -98,7 +146,7 @@
             "type": "no-developer",
             "name": "Lacats",
             "descriptionPosition": "Pawn",
-            "date": "2020 (4 meses)",
+            "date": "2020 (4 Months)",
              "location": "Ulldecona",
             "description": "Company specialized in powder painting of metal parts.",
             "listOfTask": [
@@ -114,7 +162,7 @@
             "type": "no-developer",
             "name": "Talleres Blanchadell",
             "descriptionPosition": "Pawn",
-            "date": "2021 (4 meses)",
+            "date": "2021 (4 Months)",
              "location": "Vinaroz",
             "description": "Construction of a 16m aluminum catamaran from scratch and making repairs to damaged boats.",
             "listOfTask": [
@@ -129,7 +177,7 @@
             "type": "no-developer",
             "name": "Pub Refugio",
             "descriptionPosition": "Barman",
-            "date": "2019/2020 ",
+            "date": "2019/2020 (2 Years)",
              "location": "Peñiscola",
             "description": "During the summer months.",
             "listOfTask": [
@@ -146,7 +194,7 @@
             "type": "developer",
             "name": "OTP",
             "descriptionPosition": "Back-end Developer",
-            "date": "2020 (7 meses)",
+            "date": "2020 (7 Months)",
              "location": "Valencia",
             "description": "Creation of the company's internal application with LARAVEL.",
             "listOfTask": [
@@ -163,7 +211,7 @@
             "type": "developer",
             "name": "Novatel",
             "descriptionPosition": "Pawn of Network",
-            "date": "2018 (4 meses) ",
+            "date": "2018 (4 Months) ",
              "location": "Benicarló",
             "description": "I completed my mid-level internships in this company dedicated to network service.",
             "listOfTask": [
@@ -180,7 +228,7 @@
             "type": "no-developer",
             "name": "Hostería del Mar",
             "descriptionPosition": "Buttons",
-            "date": "2017/2019 (3 años) ",
+            "date": "2017/2019 (3 Years) ",
              "location": "Peñiscola",
             "description": "During the summer months I worked at Hostería del Mar, a 4-star superior hotel.",
             "listOfTask": [
