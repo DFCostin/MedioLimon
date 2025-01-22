@@ -32,47 +32,14 @@
             "type": "developer",
             "name": "Gil Comes",
             "descriptionPosition": "Back-end Developer",
-            "date": "2024 / Current",
+            "date": "2024 / (Current)",
              "location": "Vinarós",
             "description": "My main function is Back-end with SAP.",
             "listOfTask": [
                 {
                     "list1": "Creating new programs.",
                     "list2": "To correct and edit issues in a program.",
-                    "list3": "To repair errors in electronic devices.",
-                    "list4": ""
-                }
-            ]
-        },
-        {
-            "type": "no-developer",
-            "name": "Babilon",
-            "descriptionPosition": "Barman",
-            "date": "2024 (few weeks)",
-             "location": "Benicarló",
-            "description": "During the summer months.",
-            "listOfTask": [
-                {
-                    "list1": "Attending to customers.",
-                    "list2": "Serving drinks and food.",
-                    "list3": "Maintaining cleanliness.",
-                    "list4": "Managing billing and payment."
-                }
-            ]
-        },
-        {
-            "type": "no-developer",
-            "name": "Hotel Agora",
-            "descriptionPosition": "Housekeeping",
-            "location": "Peñiscola",
-            "date": "2024 (4 Months)",
-            "description": "Cleaning of hotel rooms.",
-            "listOfTask": [
-                {
-                    "list1": "Perform deep cleaning and sanitization of guest rooms, ensuring compliance with hygiene standards.",
-                    "list2": "Inspect and replace bed linens, towels, and amenities to maintain premium guest comfort.",
-                    "list3": "Polish furniture, clean windows, and sanitize high-touch areas to enhance presentation and safety.",
-                    "list4": "Restock cleaning supplies and monitor room conditions to ensure consistent service quality."
+                    "list3": "To repair errors in electronic devices."
                 }
             ]
         },
@@ -105,6 +72,38 @@
                     "list2": "Assembly and disassembly of the bars.",
                     "list3": "Replenisher.",
                     "list4": "Barman."
+                }
+            ]
+        },
+        {
+            "type": "no-developer",
+            "name": "Babilon",
+            "descriptionPosition": "Barman",
+            "date": "2024 (few weeks)",
+             "location": "Benicarló",
+            "description": "During the summer months.",
+            "listOfTask": [
+                {
+                    "list1": "Attending to customers.",
+                    "list2": "Serving drinks and food.",
+                    "list3": "Maintaining cleanliness.",
+                    "list4": "Managing billing and payment."
+                }
+            ]
+        },
+        {
+            "type": "no-developer",
+            "name": "Hotel Agora",
+            "descriptionPosition": "Housekeeping",
+            "location": "Peñiscola",
+            "date": "2024 (4 Months)",
+            "description": "During the summer months.",
+            "listOfTask": [
+                {
+                    "list1": "Perform deep cleaning and sanitization of guest rooms, ensuring compliance with hygiene standards.",
+                    "list2": "Inspect and replace bed linens, towels, and amenities to maintain premium guest comfort.",
+                    "list3": "Polish furniture, clean windows, and sanitize high-touch areas to enhance presentation and safety.",
+                    "list4": "Restock cleaning supplies and monitor room conditions to ensure consistent service quality."
                 }
             ]
         },
