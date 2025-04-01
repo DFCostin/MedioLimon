@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactComponent } from './contact.component';
 import { TranslateModule } from '@ngx-translate/core';
-import { TitelComponentModule } from '../titel-component/titel-component.module';
+import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -13,7 +14,8 @@ import { TitelComponentModule } from '../titel-component/titel-component.module'
   imports: [
     CommonModule,
     TranslateModule,
-    TitelComponentModule
+    ReactiveFormsModule,
+    RouterModule
   ],
   exports: [
     ContactComponent

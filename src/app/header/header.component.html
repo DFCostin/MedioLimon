@@ -1,0 +1,48 @@
+  <div class="when-is-show">
+  <div  [class.dark-theme]="isMenuOpen" class="header-content">
+    <div class="logo">
+      <img src="../assets/img/Limon_black.png" alt="Medio Limón" class="responsive-img">
+    </div>
+    
+    <div class="menu-container">
+      <button 
+        (click)="toggleMenu()" 
+        class="menu-button"
+        aria-label="Toggle menu"
+      >
+      {{ isMenuOpen ? ('cerrar' | translate) : ('menu' | translate) }}
+      </button>
+    </div>
+      <nav [class.active]="isMenuOpen" class="dropdown-menu">
+        <div class="d-flex justify-content-end mb-2">
+          <ul class="list-unstyled d-flex align-items-center mb-0">
+            <li>
+              <button 
+                class="btn language-button" 
+                (click)="switchLanguage('es')" 
+                [disabled]="currentLanguage === 'es'">
+                ES
+              </button>
+            </li>
+            <span>&nbsp;/&nbsp;</span>
+            <li>
+              <button 
+                class="btn language-button" 
+                (click)="switchLanguage('vlc')" 
+                [disabled]="currentLanguage === 'vlc'">
+                VLC
+              </button>
+            </li>
+          </ul>
+        </div>
+        <a routerLink="/home" class="menu-item">{{ 'inicio' | translate }}</a>
+        <a routerLink="/image" class="menu-item">{{ 'imagen' | translate }}</a>
+        <a routerLink="/team" class="menu-item">{{ 'equipo_humano' | translate }}</a>
+        <a routerLink="/training" class="menu-item">{{ 'formacion' | translate }}</a>
+        <a routerLink="/facilities" class="menu-item">{{ 'instalaciones' | translate }}</a>
+        <a routerLink="/contact" class="menu-item">{{ 'contacto' | translate }}</a>
+      
+      </nav>
+    </div>
+  </div>
+

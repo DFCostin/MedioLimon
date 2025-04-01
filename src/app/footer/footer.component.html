@@ -1,0 +1,54 @@
+<div class="main-footer container pb-4 mt-5">
+    <div class="row">
+        <!-- Sección 1: Logo de la empresa -->
+        <div class=" col-12 col-md-6 d-flex justify-content-center align-items-center mb-3">
+            <img src="../../assets/img/Limon_yellow.png" alt="Logo de la empresa" class="img-fluid"
+                style="width: 20rem;">
+        </div>
+        <!-- Sección 2: Redes sociales y contacto -->
+        <div class="col-12 col-md-6 d-flex justify-content-around mb-3">
+            <div class="row col-12">
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <h3><strong>{{ 'titel-social-media' | translate }}</strong></h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark">Facebook</a></li>
+                        <li><a href="#" class="text-dark">Twitter</a></li>
+                        <li><a href="#" class="text-dark">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <h3><strong>{{ 'titel-contact' | translate }}</strong></h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="tel:+34646219598" class="noneColor">
+                                <i class="fas fa-phone"></i> +34 646219598
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:mediolimon.catering@gmail.com" target="_blank" class="noneColor">
+                                <i class="fas fa-envelope"></i> mediolimon.catering&#64; gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-3 order-2 order-md-1">
+            <p class="text-muted">{{ 'text-companie' | translate }}</p>
+        </div>
+        
+        <div class="col-12 col-md-6 d-flex justify-content-start align-items-start mb-3 order-1 order-md-2">
+            <div class="col-12 col-md-6 text-center text-md-start">
+                <h3><strong>{{ 'titel-team-legal' | translate }}</strong></h3>
+                <ul class="list-unstyled">
+                    <li><a routerLink="/legal-notice" class="text-dark noneColor">{{ 'titel-legal-notice' | translate }}</a></li>
+                    <li><a routerLink="/privacity-politic" class="text-dark noneColor">{{ 'titel-privacity-politic' | translate }}</a></li>
+                    <li><a routerLink="/cookies-politic" class="text-dark noneColor">{{ 'titel-cookies-politic' | translate }}</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
