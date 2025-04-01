@@ -13,6 +13,8 @@ import { RouterModule } from '@angular/router';
 import { FooterModule } from './footer/footer.module';
 import { ContactModule } from './contact/contact.module';
 import { LegalNoticeModule } from './legal-notice/legal-notice.module';
+import { PrivacityPoliticModule } from './privacity-politic/privacity-politic.module';
+import { CookiesPoliticModule } from './cookies-politic/cookies-politic.module';
 
 @NgModule({ declarations: [
         AppComponent
@@ -32,7 +34,9 @@ import { LegalNoticeModule } from './legal-notice/legal-notice.module';
         RouterModule,
         FooterModule,
         ContactModule,
-        LegalNoticeModule
+        LegalNoticeModule,
+        PrivacityPoliticModule,
+        CookiesPoliticModule
      ],
     providers: [ScrollService, provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
