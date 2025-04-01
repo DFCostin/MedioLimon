@@ -2,35 +2,37 @@
 
 body {
     font-family: 'Neue Haas Grotesk Display', -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 1.875rem; 
+    font-size: 1.875rem;
     font-weight: 700;
     letter-spacing: 0.015em;
     line-height: 1.06;
-    text-transform: uppercase;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .warm-gradient {
-    position: fixed; /* O absolute, según tu necesidad */
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.warm-gradient {
+    position: fixed;
+    /* O absolute, según tu necesidad */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(
-        135deg,
-        #F5E6FF, #EBD4FF, #E0C2FF,
-        #E8FFE6, #D4F7D0, #C0EBB5,
-        #FFF9E6, #FFF3CC, #FFEDB3,
-        #FFE6F5, #FFD4EB, #FFC2E0,
-        #E6F9FF, #D4F0FF, #C2E7FF,
-        #FFEFE6, #FFDFCC, #FFCEB3,
-        #F5E6FF
-    );
+    background: linear-gradient(135deg,
+            #F5E6FF, #EBD4FF, #E0C2FF,
+            #E8FFE6, #D4F7D0, #C0EBB5,
+            #FFF9E6, #FFF3CC, #FFEDB3,
+            #FFE6F5, #FFD4EB, #FFC2E0,
+            #E6F9FF, #D4F0FF, #C2E7FF,
+            #FFEFE6, #FFDFCC, #FFCEB3,
+            #F5E6FF);
     background-size: 500% 500%;
     animation: gradient-animation 400s ease infinite;
     min-height: 100vh;
-    position: relative;  
+    position: relative;
     z-index: 0;
     overflow: visible;
 }
@@ -50,13 +52,15 @@ body {
         background-position: 0% 0%;
         /* filter: hue-rotate(0deg); */
     }
+
     50% {
         background-position: 100% 100%;
         /* filter: hue-rotate(180deg); */
     }
+
     100% {
         background-position: 0% 0%;
-       /*  filter: hue-rotate(360deg); */
+        /*  filter: hue-rotate(360deg); */
     }
 }
 
@@ -64,6 +68,7 @@ body {
     0% {
         transform: rotate(0deg) scale(1.2);
     }
+
     100% {
         transform: rotate(360deg) scale(1.5);
     }

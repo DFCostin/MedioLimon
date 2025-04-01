@@ -1,6 +1,6 @@
 {
     "inicio":"INICIO",
-    "imagen":"IMAGEN",
+    "imagen":"IMAGEN CORPORATIVA",
     "equipo_humano":"EQUIPO HUMANO",
     "formacion":"FORMACÓN",
     "instalaciones":"INSTALACIONES",
@@ -15,9 +15,6 @@
     "titel-legal-notice":"AVISO LEGAL",
     "titel-privacity-politic":"POLÍTICA DE PRIVACIDAD",
     "titel-cookies-politic":"POLÍTICA DE COOKIES",
-    
-    
-    
     
     "phone":"Teléfono",
     "email":"Email",
@@ -34,9 +31,6 @@
     "error-name":"Inserte un nombre.",
     "error-description":"Inserte una descripción.",
     "error-affair":"Inserte un asunto.",
-
-
-
 
     "legal-notice-titel-1":"1. Información General",
     "legal-notice-p-1-1":"Este sitio web es propiedad de",
@@ -68,7 +62,6 @@
     "legal-notice-p-19":"En caso de controversias, las partes se someten a la jurisdicción de los tribunales de ",
     "legal-notice-p-20":"y están protegidos por las leyes de propiedad intelectual.",
 
-
     "intoduction":"Introducción",
     "politic-privacity-p-1":"En Medio Limon nos comprometemos a proteger su privacidad y a garantizar la seguridad de su información personal. La presente Política de Privacidad describe cómo recopilamos, utilizamos y protegemos sus datos al acceder y utilizar nuestro sitio web.",
     "politic-privacity-titel-1":"Datos que Recopilamos",
@@ -93,8 +86,6 @@
     "politic-privacity-p-15":"Nos reservamos el derecho a modificar esta política en cualquier momento. Los cambios serán publicados en esta página y, de ser necesario, notificados a través de los medios oportunos.",
     "politic-privacity-p-16":"Si tiene alguna pregunta o inquietud sobre esta Política de Privacidad, puede contactarnos al correo electrónico ",
    
-   
-   
     "cookies-politic-p-1":"En nuestro sitio web utilizamos cookies para mejorar su experiencia de navegación, personalizar contenidos y analizar el tráfico. Al continuar utilizando este sitio, usted acepta el uso de cookies conforme a esta política.",
     "cookies-politic-titel-1":"Detalles sobre las Cookies",
     "cookies-politic-p-2":"Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita un sitio web. Utilizamos diferentes tipos de cookies:",
@@ -116,13 +107,14 @@
     "cookies-politic-titel-4":"Información Final",
     "cookies-politic-p-16":"Esta política de cookies forma parte integral de nuestra política de privacidad. Si tiene alguna pregunta o comentario sobre el uso de cookies en nuestro sitio, no dude en ponerse en contacto con nosotros.",
     
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
+    "history":"HISTORIA",
+    "history-p-1":"Somos una empresa especializada en la gestión y coordinación de los espacios de venta de bebidas en eventos organizados por ayuntamientos, entidades públicas y promotoras privadas. Desde 2016, hemos tenido el privilegio de colaborar con los ayuntamientos de Vinaròs y Càlig en sus programas de fiestas patronales, acumulando más de 140 eventos que avalan nuestra experiencia y compromiso. ",
+    "history-p-2":"Gracias al esfuerzo y dedicación de todo nuestro equipo, hemos logrado construir una estructura laboral sostenible y eficiente, lo que nos permite ofrecer a todo tipo de entidades un servicio profesional y de alta calidad. Coordinamos desde fiestas privadas hasta grandes eventos multitudinarios, adaptándonos a las necesidades de cada ocasión.",
+    "human-team":"EQUIPO HUMANO",
+    "corporative-security":"SEGURIDAD CORPORATIVA",
+    "corporative-image":"IMAGEN CORPORATIVA",
+    "instalations":"INSTALACIONES",
+    "gourmet-experience":"EXPERIENCIAS GOURMET",
     "":"",
     "":"",
     "":"",
