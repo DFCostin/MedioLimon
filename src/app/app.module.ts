@@ -1,4 +1,4 @@
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
@@ -7,16 +7,19 @@ import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MenuModule } from './menu/menu.module';
-import { InformationModule } from './information/information.module';
-import { ChooseLanguagesModule } from './choose-languages/choose-languages.module';
 import { ScrollService } from './scroll.service';
-import { IconsModule } from '../assets/icons/icons.module';
+import { HeaderModule } from './header/header.module';
+import { RouterModule } from '@angular/router';
+import { FooterModule } from './footer/footer.module';
+import { ContactModule } from './contact/contact.module';
+import { LegalNoticeModule } from './legal-notice/legal-notice.module';
 
 @NgModule({ declarations: [
         AppComponent
     ],
-    bootstrap: [AppComponent], imports: [BrowserModule,
+    bootstrap: [AppComponent], 
+    imports: [
+        BrowserModule,
         AppRoutingModule,
         TranslateModule.forRoot({
             loader: {
@@ -25,10 +28,13 @@ import { IconsModule } from '../assets/icons/icons.module';
                 deps: [HttpClient]
             }
         }),
-        MenuModule,
-        InformationModule,
-        ChooseLanguagesModule,
-        IconsModule], providers: [ScrollService, provideHttpClient(withInterceptorsFromDi())] })
+        HeaderModule,
+        RouterModule,
+        FooterModule,
+        ContactModule,
+        LegalNoticeModule
+     ],
+    providers: [ScrollService, provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');

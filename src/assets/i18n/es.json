@@ -1,255 +1,101 @@
 {
-    "english":"Inglés",
-    "spanish":"Castellano",
-    "about" : "Sobre mí ",
-    "experience" : "Experiencia ",
-    "projects" : "Proyectos ",
-    "skills" : "Habilidades ",
-    "education" : "Formación",
-    "contact" : "Contacto ",
-    "resume" : "Currículum ",
-    "titel-information" : "ESTE SOY YO",
-    "out-developer":"Empleo como desarrollador",
-    "on-developer":"Otros empleos",
-    "about-p1":"Mi nombre es Dan Florea Costin",
-    "about-p2-1":"Actualmente tengo",
-    "about-p2-2":"años y resido en Vinaroz una localidad del norte de Castellón (Comunidad Valenciana).",
-    "about-p3":"Soy una persona llena de vida con ganas de comerse el mundo.",
-    "about-p4":"Siempre en búsqueda de nuevos desafíos y experiencias emocionantes. Mi amor por la exploración me ha llevado a desarrollar una gran capacidad de adaptación, resiliencia y una actitud proactiva frente a personal. Mi entusiasmo por las cosas no solo me ha brindado un sinfín de experiencias enriquecedoras, sino que también ha forjado en mí una mentalidad de constante aprendizaje y superación.",
-    "about-p5":"Toda la experiencia obtenida hasta la fecha me hace una persona con las siguientes habilidades:",
-    "about-p6-1":"Capacidad de Adaptación",
-    "about-p6-2":"Acostumbrado a enfrentar y adaptarme rápidamente a entornos y situaciones cambiantes.",
-    "about-p7-1":"Resiliencia",
-    "about-p7-2":"Firmeza y tenacidad frente a desafíos, con una actitud positiva y orientada a la solución de problemas.",
-    "about-p8-1":"Trabajo en Equipo",
-    "about-p8-2":"Experiencia en colaborar con equipos diversos, fomentando la cooperación y el logro de objetivos comunes.",
-    "about-p9-1":"Gestión del Tiempo",
-    "about-p9-2":"Habilidad para priorizar tareas y manejar múltiples proyectos simultáneamente, garantizando la eficiencia y eficacia.",
-    "about-p10-1":"Creatividad y Proactividad",
-    "about-p10-2":"Enfoque innovador para encontrar soluciones y mejorar procesos, siempre buscando nuevas oportunidades de mejora.",
-    "experienceOfJob": [
-        {
-            "type": "developer",
-            "name": "Gil Comes",
-            "descriptionPosition": "Back-end Developer",
-            "date": "2024 / (Actual)",
-             "location": "Vinarós",
-            "description": "Mi funcion es Back-end con SAP.",
-            "listOfTask": [
-                {
-                    "list1": "Crear nuevos programas.",
-                    "list2": "Corregir incidencias en programas.",
-                    "list3": "Reparar dispositivos electricos."
-                }
-            ]
-        },
-        {
-            "type": "no-developer",
-            "name": "Deltakitesup",
-            "descriptionPosition": "Monitor KiteSurf",
-            "location": "Delta del Ebro",
-            "date": "2023 / (Actual)",
-            "description": "Monitor de KiteSurf en temporada.",
-            "listOfTask": [
-                {
-                    "list1": "Evaluar condiciones y al alumno.",
-                    "list2": "Encargado del material a usar.",
-                    "list3": "Realizar las clases de la manera más segura y divertida para el cliente.",
-                    "list4": "Adaptar cada clase a las capacidades y gustos del cliente."
-                }
-            ]
-        },
-        {
-            "type": "no-developer",
-            "name": "Festivos Vinaros y otros",
-            "descriptionPosition": "Encargado",
-            "date": "2019 / (Actual)",
-             "location": "Vinaroz",
-            "description": "Tengo a mi cargo  un equipo de 15 personas y mis funciones son:",
-            "listOfTask": [
-                {
-                    "list1": "Supervisión.",
-                    "list2": "Montaje y desmontaje de las barras.",
-                    "list3": "Reponedor.",
-                    "list4": "Barman."
-                }
-            ]
-        },
-        {
-            "type": "no-developer",
-            "name": "Babilon",
-            "descriptionPosition": "Camarero",
-            "date": "2024 (Unas semanas)",
-             "location": "Benicarló",
-            "description": "Durante los meses de verano.",
-            "listOfTask": [
-                {
-                    "list1": "Atención al cliente.",
-                    "list2": "Servir cerveza y cocteles.",
-                    "list3": "Mantener todas las areas limpias.",
-                    "list4": "Gestion del cobro y funcionamiento de los dispositivos electricos del local."
-                }
-            ]
-        },
-        {
-            "type": "no-developer",
-            "name": "Hotel Agora",
-            "descriptionPosition": "Limpieza de habitaciones",
-            "location": "Peñiscola",
-            "date": "2024 (4 Meses)",
-            "description": "Durante los meses de verano.",
-            "listOfTask": [
-                {
-                    "list1": "Realizar una limpieza profunda y desinfección de las habitaciones de los huéspedes, asegurando el cumplimiento de los estándares de higiene.",
-                    "list2": "Inspeccionar y reemplazar la ropa de cama, toallas y amenities para mantener un confort premium para los huéspedes.",
-                    "list3": "Pulir los muebles, limpiar las ventanas y desinfectar las áreas de alto contacto para mejorar la presentación y seguridad.",
-                    "list4": "Reabastecer los suministros de limpieza y monitorear las condiciones de las habitaciones para asegurar la calidad consistente del servicio."
-                }
-            ]
-        },
-        {
-            "type": "no-developer",
-            "name": "Guzman &  Gomez",
-            "descriptionPosition": "Tripulante",
-            "date": "2023/2024 (6 meses)",
-             "location": "Gold Coast",
-            "description": "El trabajo lo realicé durante mi estancia en Australia.",
-            "listOfTask": [
-                {
-                    "list1": "Encargado de cocina.",
-                    "list2": "Cocinero.",
-                    "list3": "Delivery.",
-                    "list4": "Limpieza.",
-                    "list5": "En la línea, realizando el montaje de los pedidos.",
-                    "list6": "Venta al cliente."
-                }
-            ]
-        },
-        {
-            "type": "developer",
-            "name": "Stratio",
-            "descriptionPosition": "Frond-end Developer",
-            "date": "2021/2023 (2 años)",
-             "location": "Madrid",
-            "description": "Mi función principal fue la de Frond-end con ANGULAR.",
-            "listOfTask": [
-                {
-                    "list1": "Creación de nuevos desarrollos de componentes y módulos.",
-                    "list2": "Creación de nuevas funcionalidades, diseños, pruebas unitarias, etc.",
-                    "list3": "Modificación y actualización de componentes, módulos, funcionalidades, estilos, pruebas unitarias, etc. Según la necesidad y prioridad identificada.",
-                    "list4": "Optimización de rendimiento, seguridad, documentación, eliminaciones, corrección de Bugs."
-                }
-            ]
-        },
-        {
-            "type": "no-developer",
-            "name": "Lacats",
-            "descriptionPosition": "Peón",
-            "date": "2020 (4 meses)",
-             "location": "Ulldecona",
-            "description": "Empresa especializada en el pintaje en polvo de piezas metálicas.",
-            "listOfTask": [
-                {
-                    "list1": "Preparación de la línea.",
-                    "list2": "Limpieza de piezas.",
-                    "list3": "Montaje de la pieza para su pintaje.",
-                    "list4": "Embalaje para su posterior distrubición."
-                }
-            ]
-        },
-        {
-            "type": "no-developer",
-            "name": "Talleres Blanchadell",
-            "descriptionPosition": "Peón",
-            "date": "2021 (4 meses)",
-             "location": "Vinaroz",
-            "description": "Construcción de un catamaran de 16m en aluminio desde cero y realizar reparaciones a barcos averiados.",
-            "listOfTask": [
-                {
-                    "list1": "Reparación a barcos",
-                    "list2": "Utilización de diferentes máquinas para la construcción naval.",
-                    "list3": "Pintar piezas con pintura especial."
-                }
-            ]
-        },
-        {
-            "type": "no-developer",
-            "name": "Pub Refugio",
-            "descriptionPosition": "Barman",
-            "date": "2019/2020 ",
-             "location": "Peñiscola",
-            "description": "Durante los meses de verano.",
-            "listOfTask": [
-                {
-                    "list1": "Preparar el Pub para la apertura.",
-                    "list2": "Servir a los clientes.",
-                    "list3": "Preparar cockteles al gusto del cliente.",
-                    "list4": "Tareas de cierre de Pub."
-                }
-            ]
-        }
-        ,
-        {
-            "type": "developer",
-            "name": "OTP",
-            "descriptionPosition": "Back-end Developer",
-            "date": "2020 (7 meses)",
-             "location": "Valencia",
-            "description": "Creación de la aplicación interna de la empresa con LARAVEL.",
-            "listOfTask": [
-                {
-                    "list1": "Crear nuevas rutas y componentes.",
-                    "list2": "Interacción con la base de datos PostGress.",
-                    "list3": "Diseño y crear interacción para el usuario.",
-                    "list4": "Manejo de versiones."
-                }
-            ]
-        }
-        ,
-        {
-            "type": "developer",
-            "name": "Novatel",
-            "descriptionPosition": "Peón de Red",
-            "date": "2018 (4 meses) ",
-             "location": "Benicarló",
-            "description": "Las practicas del grado medio las realicé en esta empresa dedicada al servicio red.",
-            "listOfTask": [
-                {
-                    "list1": "Instalación de equipos de red y telecomunicaciones.",
-                    "list2": "Instalaciones de equipos anti incendios.",
-                    "list3": "Realizar configuraciones de red para la conexión de dispositivos.",
-                    "list4": "Mantenimiento y reparación de equipos de red."
-                }
-            ]
-        }
-        ,
-        {
-            "type": "no-developer",
-            "name": "Hostería del Mar",
-            "descriptionPosition": "Botones",
-            "date": "2017/2019 (3 años) ",
-             "location": "Peñiscola",
-            "description": "Durante los meses de verano trabajé en Hostería del Mar un hotel de 4 estrellas superiores.",
-            "listOfTask": [
-                {
-                    "list1": "Botones.",
-                    "list2": "Atención al cliente.",
-                    "list3": "Ayudante de recepción."
-                }
-            ]
-        }
-    ],
-    "projects-p1-1":"Realización de página web a",
-    "projects-p1-2":"importante impresa puntera en el sector de la construcción de barcos y estructuras flotantes.",
-    "projects-p3":"La página web se creó con un Modelo Vista Controlador en PHP.",
-    "projects-p4":"Tecnologias empleadas",
-    "skills-p1":"TECNOLOGIAS",
-    "skills-p2":"Bases de Datos",
-    "skills-p3":"Versionado",
-    "skills-p4":"Herramientas para el desarrollo",
-    "skills-p5":"Conocimientos superficiales",
-    "skills-p6":"Estilos",
-    "education-p1":"Sistemas Microinformaticos y Redes",
-    "education-p2":"Desarrollo de aplicacion web"
+    "inicio":"INICIO",
+    "imagen":"IMAGEN",
+    "equipo_humano":"EQUIPO HUMANO",
+    "formacion":"FORMACÓN",
+    "instalaciones":"INSTALACIONES",
+    "contacto":"CONTACTO",
+    "menu":"Menú",
+    "cerrar":"Cerrar",
+
+    "text-companie":"© 2025 Medio Limon.",
+    "titel-social-media":"REDES SOCIALES",
+    "titel-contact":"CONTACTO",
+    "titel-team-legal":"TEMAS LEGALES",
+    "titel-legal-notice":"AVISO LEGAL",
+    "titel-privacity-politic":"POLÍTICA DE PRIVACIDAD",
+    "titel-cookies-politic":"POLÍTICA DE COOKIES",
+    
+    
+    
+    
+    "phone":"Teléfono",
+    "email":"Email",
+    "ubication":"Ubicación",
+    "schedule":"Horario",
+    "schedule-text":"Lunes a Viernes de 9:00 a 18:00",
+    "name":"Nombre",
+    "affair":"Asunto",
+    "description":"Descripción",
+    "submit":"Enviar",
+    "send-message":"Envíanos un mensaje",
+
+    "error-phone":"Inserte un numero de telefono valido.",
+    "error-name":"Inserte un nombre.",
+    "error-description":"Inserte una descripción.",
+    "error-affair":"Inserte un asunto.",
+
+
+
+
+    "legal-notice-titel-1":"1. Información General",
+    "legal-notice-p-1-1":"Este sitio web es propiedad de",
+    "legal-notice-p-1-2":", con domicilio en",
+    "legal-notice-p-1-3":", con número de identificación fiscal",
+    "legal-notice-p-1-4":"y correo electrónico de contacto",
+    "legal-notice-p-2":"El objetivo de este sitio web es proporcionar información y servicios a los usuarios en relación con",
+    "legal-notice-titel-2":"2. Condiciones de Uso",
+    "legal-notice-p-3":"El acceso y uso de este sitio web está sujeto a las siguientes condiciones:",
+    "legal-notice-p-4":"El usuario se compromete a hacer un uso adecuado del contenido y servicios proporcionados.",
+    "legal-notice-p-5":"Queda prohibido el uso de este sitio web para actividades ilícitas o fraudulentas.",
+    "legal-notice-p-6":"La empresa se reserva el derecho de modificar el contenido del sitio sin previo aviso.",
+    "legal-notice-titel-3":"3. Propiedad Intelectual",
+    "legal-notice-p-7":"Todos los contenidos de este sitio web, incluyendo pero no limitado a textos, imágenes, logotipos, diseño y software, son propiedad de ",
+    "legal-notice-p-8":"Queda prohibida la reproducción, distribución o modificación de cualquier contenido sin la autorización expresa de la empresa.",
+    "legal-notice-titel-4":"4. Protección de Datos",
+    "legal-notice-p-9":"Los datos personales proporcionados por los usuarios serán tratados conforme a nuestra",
+    "legal-notice-p-10":" A continuación, se detallan algunos aspectos clave:",
+    "legal-notice-p-11":"Finalidad del tratamiento: gestionar los servicios ofrecidos en la web y comunicaciones con los usuarios.",
+    "legal-notice-p-12":"Base legal: consentimiento del usuario y cumplimiento de obligaciones legales.",
+    "legal-notice-p-13":"Derechos: el usuario puede ejercer sus derechos de acceso, rectificación, supresión, limitación y oposición.",
+    "legal-notice-titel-5":"5. Responsabilidad",
+    "legal-notice-p-14":"no se hace responsable de:",
+    "legal-notice-p-15":"El mal uso que los usuarios puedan hacer del sitio web.",
+    "legal-notice-p-16":"La continuidad o disponibilidad del sitio y sus contenidos.",
+    "legal-notice-p-17":"Posibles daños o perjuicios derivados de virus informáticos u otros elementos dañinos.",
+    "legal-notice-titel-6":"6. Legislación Aplicable y Jurisdicción",
+    "legal-notice-p-18":"Este aviso legal se rige por la legislación vigente en",
+    "legal-notice-p-19":"En caso de controversias, las partes se someten a la jurisdicción de los tribunales de ",
+    "legal-notice-p-20":"y están protegidos por las leyes de propiedad intelectual.",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":""
 
 }

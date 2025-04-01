@@ -10,20 +10,12 @@ import { ScrollService } from './scroll.service';
     standalone: false
 })
 export class AppComponent implements OnInit {
-  title = 'Protafolio';
 
+  selectedComponent: string = 'inicio';
+  
   constructor(private translate: TranslateService, private scrollService: ScrollService) { }
 
   ngOnInit() {
-    this.translate.addLangs(['en', 'es']);
-    const lang = this.translate.getBrowserLang();
-   
-    if (lang !== 'en' && lang !== 'es') {
-      this.translate.setDefaultLang('en');
-    } else {
-      this.translate.use(lang);
-    }
-    
     this.scrollService.scroll$.subscribe(target => {
       this.scrollTo(target);
     });
@@ -34,5 +26,9 @@ export class AppComponent implements OnInit {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  }
+
+  handleMenuSelection(menuItem: string): void {
+    this.selectedComponent = menuItem;
   }
 }
