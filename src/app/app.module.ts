@@ -16,6 +16,7 @@ import { LegalNoticeModule } from './legal-notice/legal-notice.module';
 import { PrivacityPoliticModule } from './privacity-politic/privacity-politic.module';
 import { CookiesPoliticModule } from './cookies-politic/cookies-politic.module';
 import { HomeModule } from './home/home.module';
+import { ImageModule } from './image/image.module';
 
 @NgModule({ declarations: [
         AppComponent
@@ -38,7 +39,8 @@ import { HomeModule } from './home/home.module';
         LegalNoticeModule,
         PrivacityPoliticModule,
         CookiesPoliticModule,
-        HomeModule
+        HomeModule,
+        ImageModule
      ],
     providers: [ScrollService, provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
